@@ -19,8 +19,7 @@ MediaPlayer2AudioProcessorEditor::MediaPlayer2AudioProcessorEditor (MediaPlayer2
 }
 
 MediaPlayer2AudioProcessorEditor::~MediaPlayer2AudioProcessorEditor()
-{
-}
+= default;
 
 //==============================================================================
 void MediaPlayer2AudioProcessorEditor::paint (juce::Graphics& g)
