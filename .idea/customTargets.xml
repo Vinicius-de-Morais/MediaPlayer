@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CLionExternalBuildManager">
+    <target id="c363c61a-7513-421d-802d-1aa6e718958f" name="Unnamed" defaultType="MAKE">
+      <configuration id="8c2164b8-475a-49a3-9296-795e9dc4c325" name="Unnamed" toolchainName="WSL" />
+    </target>
+    <target id="0301b1c1-e344-4029-b439-12b91a9404dd" name="Teste" defaultType="MAKE">
+      <configuration id="6233f5de-cf86-494c-a011-2f9c54dd8b86" name="Teste" />
+    </target>
+  </component>
+</project>
