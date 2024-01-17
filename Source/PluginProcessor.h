@@ -61,6 +61,18 @@ public:
 
 
 private:
+
+    //we need to declare some alias to not get too long
+    using Filter = juce::dsp::IIR::Filter<float>; // idk what it is, but somehow its about stereo audio
+
+    using CutFilter = juce::dsp::ProcessorChain<Filter, Filter, Filter, Filter>;
+
+    using MonoChain = juce::dsp::ProcessorChain<CutFilter, Filter, CutFilter>; // use 2 of then to have stereo audio
+    MonoChain leftChain, rightChain;
+
+
+
+
     //==============================================================================
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MediaPlayer2AudioProcessor)
 };
